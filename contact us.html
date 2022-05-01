@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eudowrd University</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/eb25ac6d4f.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="Img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact us.html">CONTACT</a></li>
+                </ul>
+               </div>
+               <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+
+    <!-- contact us -->
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d774382.6761693481!2d-73.979681!3d40.
+        69748800000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%
+        20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1651355558490!5m2!1sen!2sin" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>ABCD Road, xyz bldg</h5>
+                        <p>Lorem ipsum! Aut magnam laborum ad, ratione explicabo nulla dolores?</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+1 (203) 546-257</h5>
+                        <p>Lorem ipsum! Aut magnam laborum ad, ratione explicabo nulla dolores?</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>info@eduford.com</h5>
+                        <p>Lorem ipsum! Aut magnam laborum ad, ratione explicabo nulla dolores?</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <form>
+                    <input type="text" placeholder="Enter your Name"required>
+                    <input type="email" placeholder="Enter email address"required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Enter your message" required></textarea>
+                    <button type="submit" class="btn red-btn">Send Message</button>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+
+   
+  
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, aut? Culpa, id fugit?  Minima distinctio, quae vel perferendis inventore modi <br> tempore quisquam minus aperiam,
+            commodi ad consequuntur fugit, quam earum!</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Designed by Ikpa Precious <i class="fa-regular fa-heart"></i></p>
+    </section>
+
+
+
+
+
+
+
+    <!-- ------Javascript for toggle menu------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
